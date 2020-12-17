@@ -112,3 +112,45 @@ if __name__ == '__main__':
     print(data1)
     print(data2)
     print(dup)
+    '''
+    5)a)
+    3
+    1 2
+    2 2
+    8 7
+    2
+    3 3
+    2 9
+    the output have to be
+    {1:2,8:7,3:3}
+    [[3,3],[2,9]]
+    {2,[2,9]}
+    but we don't get this
+    5)b)
+    there was and indentation error at 53 line  at the else part. it should be alined with the if part(43).
+    5)c)
+    (i)Input 
+    n1=3
+    1 2
+    2 2
+    9 4
+    n2=2
+    3 3
+    1 4
+    expected output
+    {2:2,9:4,3:3}
+    [[3,3],[1,4]]
+    {1:[2,4]}
+
+    (ii)
+    n1=2
+    1 2
+    2 4
+    n2=2
+    3 4
+    2 5
+    expected output
+    {1:2,3:4}
+    [[3,4],[2,5]]
+    {2:[4,5]}
+'''
